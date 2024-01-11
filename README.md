@@ -1,4 +1,4 @@
-# orb_feature_extraction
+# FEATURE EXTRACTION USING ORB
 
 ### Overview
 ORB (Oriented FAST and Rotated BRIEF) is a feature detection and description algorithm developed by OpenCV labs in 2011. It serves as an efficient and cost-effective alternative to SIFT and SURF. This algorithm combines the strengths of the FAST keypoint detector and the BRIEF descriptor, providing good performance in keypoint extraction and representation.
