@@ -22,3 +22,35 @@ Pairs of pixels are randomly selected in a defined neighborhood around each keyp
 
 To address rotation invariance, ORB uses rBRIEF (rotation-aware BRIEF). This modification maintains the speed of BRIEF while adding rotation awareness to the descriptor.
 ![Alt Text](./BRIEF_KEYPOINTS.png)
+# ORB Feature Matching Example
+
+This example demonstrates the use of ORB (Oriented FAST and Rotated BRIEF) for feature detection and matching using OpenCV. The code performs keypoint detection, descriptor computation, and matching between a training image and a test image.
+
+## Instructions to Run
+
+1. **Clone the Repository:**
+   - Clone this repository to your local machine using the following command:
+     git clone https://github.com/Skanda-sap/orb_feature_extraction.git
+     
+2. **Navigate to the Code Directory:**
+   - Change your working directory to the folder containing the code
+     
+3. **Install Dependencies:**
+   - Make sure you have the necessary dependencies installed. You can install them using:
+     pip install opencv-python matplotlib numpy
+
+4. **Run the Code:**
+   - Execute the Python script to run the ORB feature matching example:
+     python3 orb.py
+     
+5. **View Results:**
+   - The code will display visualizations of the training image, test image, key points, and matching points.
+
+6. **Explore and Modify:**
+   - Feel free to explore the code and modify it for your specific use case. Adjust parameters, use different images, or integrate them into your project.
+
+## Requirements
+- OpenCV
+- Matplotlib
+- NumPy
+
